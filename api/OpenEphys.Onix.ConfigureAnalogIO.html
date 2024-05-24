@@ -1,0 +1,1045 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ConfigureAnalogIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ConfigureAnalogIO ">
+      
+      
+      <link rel="icon" href="../favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/neurogears/onix-refactor/new/main/apiSpec/new?filename=OpenEphys_Onix_ConfigureAnalogIO.md&amp;value=---%0Auid%3A%20OpenEphys.Onix.ConfigureAnalogIO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OpenEphys.Onix.ConfigureAnalogIO">
+
+
+
+  <h1 id="OpenEphys_Onix_ConfigureAnalogIO" data-uid="OpenEphys.Onix.ConfigureAnalogIO" class="text-break">
+Class ConfigureAnalogIO  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OpenEphys.html">OpenEphys</a>.<a class="xref" href="OpenEphys.Onix.html">Onix</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OpenEphys.Onix.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConfigureAnalogIO : SingleDeviceFactory</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://bonsai-rx.org/docs/api/Bonsai.Combinator-2.html">Combinator</a>&lt;<a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>, <a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>&gt;</div>
+      <div><a class="xref" href="https://bonsai-rx.org/docs/api/Bonsai.Sink-1.html">Sink</a>&lt;<a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>&gt;</div>
+      <div><a class="xref" href="OpenEphys.Onix.DeviceFactory.html">DeviceFactory</a></div>
+      <div><a class="xref" href="OpenEphys.Onix.SingleDeviceFactory.html">SingleDeviceFactory</a></div>
+      <div><span class="xref">ConfigureAnalogIO</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OpenEphys.Onix.SingleDeviceFactory.html#OpenEphys_Onix_SingleDeviceFactory_DeviceName">SingleDeviceFactory.DeviceName</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenEphys.Onix.SingleDeviceFactory.html#OpenEphys_Onix_SingleDeviceFactory_DeviceAddress">SingleDeviceFactory.DeviceAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenEphys.Onix.SingleDeviceFactory.html#OpenEphys_Onix_SingleDeviceFactory_DeviceType">SingleDeviceFactory.DeviceType</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">Combinator&lt;ContextTask, ContextTask&gt;.Process(IObservable&lt;ContextTask&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO__ctor_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.#ctor*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO__ctor" data-uid="OpenEphys.Onix.ConfigureAnalogIO.#ctor">
+  ConfigureAnalogIO()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigureAnalogIO()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction00_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction00*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction00" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction00">
+  Direction00
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction00 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction01_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction01*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction01" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction01">
+  Direction01
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction01 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction02_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction02*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction02" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction02">
+  Direction02
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction02 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction03_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction03*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction03" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction03">
+  Direction03
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction03 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction04_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction04*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction04" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction04">
+  Direction04
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction04 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction05_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction05*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction05" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction05">
+  Direction05
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction05 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction06_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction06*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction06" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction06">
+  Direction06
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction06 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction07_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction07*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction07" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction07">
+  Direction07
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction07 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction08_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction08*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction08" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction08">
+  Direction08
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction08 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction09_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction09*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction09" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction09">
+  Direction09
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction09 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction10_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction10*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction10" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction10">
+  Direction10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Direction11_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction11*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Direction11" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Direction11">
+  Direction11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelDirection Direction11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.ChannelDirection.html">ChannelDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Enable_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Enable*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Enable" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Enable">
+  Enable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Enable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange00_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange00*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange00" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange00">
+  InputRange00
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange00 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange01_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange01*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange01" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange01">
+  InputRange01
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange01 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange02_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange02*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange02" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange02">
+  InputRange02
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange02 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange03_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange03*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange03" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange03">
+  InputRange03
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange03 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange04_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange04*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange04" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange04">
+  InputRange04
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange04 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange05_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange05*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange05" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange05">
+  InputRange05
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange05 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange06_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange06*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange06" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange06">
+  InputRange06
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange06 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange07_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange07*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange07" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange07">
+  InputRange07
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange07 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange08_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange08*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange08" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange08">
+  InputRange08
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange08 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange09_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange09*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange09" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange09">
+  InputRange09
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange09 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange10_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange10*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange10" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange10">
+  InputRange10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_InputRange11_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange11*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_InputRange11" data-uid="OpenEphys.Onix.ConfigureAnalogIO.InputRange11">
+  InputRange11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoltageRange InputRange11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OpenEphys.Onix.VoltageRange.html">VoltageRange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OpenEphys_Onix_ConfigureAnalogIO_Process_" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Process*"></a>
+
+  <h3 id="OpenEphys_Onix_ConfigureAnalogIO_Process_System_IObservable_OpenEphys_Onix_ContextTask__" data-uid="OpenEphys.Onix.ConfigureAnalogIO.Process(System.IObservable{OpenEphys.Onix.ContextTask})">
+  Process(IObservable&lt;ContextTask&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Processes an observable sequence into a new sequence of the specified
+element type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IObservable&lt;ContextTask&gt; Process(IObservable&lt;ContextTask&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>&gt;</dt>
+    <dd><p>The source sequence to process.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>&gt;</dt>
+    <dd><p>An observable sequence with elements of type <a class="xref" href="OpenEphys.Onix.ContextTask.html">ContextTask</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/neurogears/onix-refactor/blob/main/OpenEphys.Onix/OpenEphys.Onix/ConfigureAnalogIO.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Open Ephys and Contributors. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

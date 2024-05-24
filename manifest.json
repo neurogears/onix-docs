@@ -1,0 +1,778 @@
+{
+  "source_base_path": "D:/a/onix-docs/onix-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.AnalogInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.AnalogInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.AnalogOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.AnalogOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Bno055CalibrationFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Bno055CalibrationFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Bno055Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Bno055Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Bno055DataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Bno055DataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ChannelDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ChannelDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureAnalogIO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureAnalogIO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureBno055.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureBno055.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureBreakoutBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureBreakoutBoard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureDS90UB9x.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureDS90UB9x.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureFmcLinkController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureFmcLinkController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureHarpSyncInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureHarpSyncInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureHeadstage64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureHeadstage64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureHeadstage64ElectricalStimulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureHeadstage64ElectricalStimulator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureHeartbeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureHeartbeat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureLoadTester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureLoadTester.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureMemoryMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureMemoryMonitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2e.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2e.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBeta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBetaHeadstage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBetaHeadstage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBno055.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eBno055.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eHeadstage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureNeuropixelsV2eHeadstage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureRhd2164.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureRhd2164.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureTS4231.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureTS4231.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ConfigureTest0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ConfigureTest0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ContextTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ContextTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.CreateContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.CreateContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.DeviceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.DeviceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.DeviceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.DeviceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.DeviceNameConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.DeviceNameConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HarpSyncInputData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HarpSyncInputData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HarpSyncInputDataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HarpSyncInputDataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HarpSyncSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HarpSyncSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Headstage64ElectricalStimulatorTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Headstage64ElectricalStimulatorTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HeartbeatCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HeartbeatCounter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HubConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HubConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.HubDeviceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.HubDeviceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.ManagedFrame-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.ManagedFrame-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.MemoryUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.MemoryUsage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.MemoryUsageDataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.MemoryUsageDataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2Probe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2Probe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBetaData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBetaDataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBetaDataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBno055Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2eBno055Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2eData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2eData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.NeuropixelsV2eDataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.NeuropixelsV2eDataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.PassthroughState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.PassthroughState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.PortName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.PortName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164AmplifierDataFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164AmplifierDataFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164AnalogHighCutoff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164AnalogHighCutoff.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164AnalogLowCutoff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164AnalogLowCutoff.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164Config.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164DataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164DataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Rhd2164DspCutoff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Rhd2164DspCutoff.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.SingleDeviceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.SingleDeviceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.StartAcquisition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.StartAcquisition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.TS4231Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.TS4231Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.TS4231DataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.TS4231DataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.TS4231Envelope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.TS4231Envelope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Test0Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Test0Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.Test0DataFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.Test0DataFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.VoltageRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.VoltageRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenEphys.Onix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenEphys.Onix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/onix-refactor/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/onix-refactor/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/create-context.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/create-context.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/create-context.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/create-context.svg"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
